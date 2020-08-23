@@ -1,0 +1,51 @@
+package Lab1;
+
+public class BankAccount {
+
+	int accountNumber = 1000;
+
+	public bankaccount() {
+	
+	}
+
+	public bankaccount() {
+		
+	}switch(choice)
+
+	{
+
+case 1:
+
+	public static void withdrawFunds() {
+
+	}
+
+	public static void withdrawFunds() {
+
+	}break;
+
+	case 2:
+
+	public static void depositFunds() {
+
+	}
+
+	public static void depositFunds() {
+
+	}break;
+
+	default:System.out.println("Invalid selection!!!")break;
+
+}
+
+	public static void displayAccountInfo() {
+
+	}
+
+	public static void main(String[] args) {
+Scanner input = new Scanner
+		
+		
+	}
+
+}

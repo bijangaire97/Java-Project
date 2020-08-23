@@ -1,0 +1,12 @@
+package com.vastika.jdbc_demo;
+
+public class CreateDbDemo {
+
+	public static void main(String[] args) {
+		public static final String SQL = "create database user_db";
+		public static final String DRIVER_NAME = "com.mysql.jdbc.Driver";
+		public static final String URL = "jdbc:mysql://localhost:3306/";
+
+	}
+
+}

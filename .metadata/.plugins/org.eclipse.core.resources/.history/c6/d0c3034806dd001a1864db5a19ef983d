@@ -1,0 +1,25 @@
+package day31.mutlthreading;
+
+public class FacebookLike {
+
+	private int likes;
+
+	public FacebookLike(int likes) {
+		this.likes = likes;
+	}
+
+	public void increaseLikes() {
+		likes++;
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

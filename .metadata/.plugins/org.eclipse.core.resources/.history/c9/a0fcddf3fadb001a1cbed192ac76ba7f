@@ -1,0 +1,9 @@
+package FileHandingPractice;
+
+public class FileWriter1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

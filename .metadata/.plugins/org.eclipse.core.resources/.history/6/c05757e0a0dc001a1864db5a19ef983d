@@ -1,0 +1,14 @@
+package day30.multithreading;
+
+public class ThreadDemo1 extends Thread {
+
+	public void run() {
+		System.out.println("hello from thread....");
+	}
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

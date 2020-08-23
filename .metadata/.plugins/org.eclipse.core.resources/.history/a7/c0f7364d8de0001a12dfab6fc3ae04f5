@@ -1,0 +1,5 @@
+package com.vastika.jdbc_demo.util;
+
+public class DBUtililities {
+
+}

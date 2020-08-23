@@ -1,0 +1,13 @@
+package day31.mutlthreading;
+
+public class FacebookLikeTest {
+
+	public static void main(String[] args) {
+		
+		FacebookLike fb = new FacebookLike(400);
+		
+		Thread user1 = new Thread(() ->{
+
+	}
+
+}

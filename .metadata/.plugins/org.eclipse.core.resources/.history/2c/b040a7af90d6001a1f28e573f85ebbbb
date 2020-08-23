@@ -1,0 +1,29 @@
+package day27.collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo3 {
+
+	public static void main(String[] args) {
+
+		Set<Integer> set = new HashSet<>();
+		set.add(10);
+		set.add(20);
+		set.add(30);
+		set.add(40);
+		System.out.println(set);
+
+		for (int a : set) {
+			System.out.println(a);
+		}
+
+		set.forEach(t -> System.out.println(t));
+
+		System.out.println("=============");
+
+		al.forEach(System.out::println);
+
+	}
+
+}

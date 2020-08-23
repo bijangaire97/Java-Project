@@ -1,0 +1,35 @@
+package com.vastika.uis;
+
+import java.util.Scanner;
+
+import com.vastika.uis.controller.UserController;
+
+public class UserTest {
+
+	public static void main(String[] args) {
+		UserController controller = new UserController();
+		Scanner input = new Scanner(System.in);
+do {
+		System.out.println("What do you want to do? openAccount| depositAmount | withdrawAmount");
+		String choice = input.nextLine();
+
+		switch (choice) {
+		case openAccount:
+
+			break;
+
+		case depositAmount:
+
+			break;
+
+		case withdrawAmount:
+
+			break;
+
+		default:
+			System.out.println("Invalid choice...");
+		}} while()
+		controller.saveUserInfo(input);
+
+	}
+}

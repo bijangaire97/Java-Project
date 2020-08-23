@@ -1,0 +1,25 @@
+package Lab1;
+
+public class BankAccount {
+
+	public static void withdrawFunds() {
+
+	}
+
+	public static void withdrawFunds() {
+
+	}
+
+	public static void depositFunds() {
+
+	}
+
+	public static void depositFunds() {
+
+	}
+
+	public static void displayAccountInfo() {
+
+	}
+
+}

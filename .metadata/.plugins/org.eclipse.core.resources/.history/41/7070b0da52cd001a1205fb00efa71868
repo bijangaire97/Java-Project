@@ -1,0 +1,9 @@
+package Lab1;
+
+public class BankAccount {
+
+	public static void withdrawFunds() {
+
+	}
+
+}

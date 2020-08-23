@@ -1,0 +1,50 @@
+package Lab1;
+
+public class BankAccount {
+	private String name;
+	private double balance;
+	private int accountNo = 1000;
+	private final double interest = 0.1;
+	private final double charge = 2.5;
+
+	public BankAccount(String name, double balance) {
+		this.name = name;
+		this.balance = balance;
+		this.accountNo = accountNo++;
+	}
+
+	public BankAccount(String name) {
+		this.name = name;
+		this.balance = 0;
+	}
+
+	public void deposit(double interest) {
+		balance = interest * this.balance + this.balance;
+		displayAccountInfo(this.balance, this.accountNo);
+	}
+
+	public void deposit() {
+		balance = this.interest * this.balance + this.balance;
+		displayAccountInfo(balance, this.accountNo);
+	}
+
+	public static void displayAccountInfo(double balance, int accountNumber) {
+		System.out.println("Account Number is: " + accountNumber);
+		System.out.println("Balance is: " + balance);
+
+	}
+
+	public double withdrawFunds(double withdraw) {
+		balance = this.balance - this.charge - withdraw;
+		BankAccount.displayAccountInfo(balance, this.accountNo);
+		return balance;
+
+	}
+
+	public double withdrawFunds(double withdraw, double charge) {
+		balance = this.balance - charge - withdraw;
+		BankAccount.displayAccountInfo(balance, this.accountNo);
+		return balance;
+	}
+
+}

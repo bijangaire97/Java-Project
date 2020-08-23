@@ -1,0 +1,42 @@
+package Set1;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Question44 {
+
+	public static void main(String[] args) {
+		// to store name and address of 10 students in file and search address by given
+		// name
+		Scanner input = new Scanner(System.in);
+		FileWriter fw;
+		try {
+			fw = new FileWriter("C:\\Users\\Bijan Gaire\\Desktop\\ball.txt");
+			
+
+			String[] nameAdd = new String[20];
+			int i = 0;
+			while (i < 20) {
+				System.out.println("Enter the name: ");
+				nameAdd[i] = input.nextLine();
+				fw.write(nameAdd[i]);
+				i++;
+				System.out.println("Enter the address: ");
+				nameAdd[i] = input.nextLine();
+				fw.write(nameAdd[i]);
+				i++;
+
+			}
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		} finally {
+
+			input.close();
+		}
+
+	}
+
+}

@@ -1,0 +1,42 @@
+package com.Team1.BankAccount;
+
+import java.util.Scanner;
+
+
+
+public class UserTest {
+
+	public static void main(String[] args) {
+		public static void main(String[] args) {
+			UserController controller = new UserController();
+			Scanner input = new Scanner(System.in);
+			String decision = "";
+			do {
+				System.out.println("What do you want to do? openAccount| depositAmount | withdrawAmount");
+				String choice = input.nextLine();
+
+				switch (choice) {
+				case openAccount:
+					controller.openAccount(input);
+					break;
+
+				case depositAmount:
+					controller.depositAmount(input);
+					break;
+
+				case withdrawAmount:
+					controller.withdrawAmount(input);
+					break;
+
+				default:
+					System.out.println("Invalid choice...");
+				}
+				System.out.println("Do you want to continue? ");
+				decision = input.nextLine();
+			} while (decision.equalsIgnoreCase("yes"));
+			System.out.println("Bye!! Have a good time!");
+
+		}
+	}
+
+}

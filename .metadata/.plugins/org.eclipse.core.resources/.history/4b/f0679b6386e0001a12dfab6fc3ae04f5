@@ -1,0 +1,9 @@
+package com.vastika.jdbc_demo;
+
+public class CreateDbDemo {
+
+	public static void main(String[] args) {
+public static final String SQL = ""
+	}
+
+}

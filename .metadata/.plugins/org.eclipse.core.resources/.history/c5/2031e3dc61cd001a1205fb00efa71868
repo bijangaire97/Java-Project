@@ -1,0 +1,83 @@
+package Lab1;
+
+import java.util.Scanner;
+
+public class BankAccount {
+
+	static Scanner input = new Scanner(System.in);
+
+	static int accountNumber = 1000;
+	int charge = 2;
+	static int choice;
+	static int balance;
+
+	public BankAccount(String name, int balance) {
+		name = name;
+		balance = balance;
+		this.accountNumber = accountNumber;
+		accountNumber++;
+	}
+
+	public BankAccount(String name) {
+		name = name;
+		double balance = 0;
+		this.accountNumber = accountNumber;
+		accountNumber++;
+	}
+
+	public static void withdrawFunds(int charge) {
+		System.out.println("Charge for withdrawl: " + charge);
+		BankAccount.displayAccountInfo(balance, accountNumber);
+	}
+
+	public static void withdrawFunds(double balance, int charge) {
+		System.out.println("Enter the amount to withdraw: ");
+		double withdraw = input.nextDouble();
+		balance = balance - withdraw - charge;
+		System.out.println(" Balance after withdrawl: " + balance);
+		BankAccount.displayAccountInfo(balance, accountNumber);
+	}
+
+	public static void depositFunds(double balance) {
+		double interest = 0.1 * balance;
+		System.out.println("Interest: " + interest);
+		displayAccountInfo(balance, accountNumber);
+	}
+
+	public static void depositFunds() {
+
+	}
+
+	public static void displayAccountInfo(double balance, int accountNumber) {
+		System.out.println("Account Number is: " + accountNumber);
+		System.out.println("Balance is: " + balance);
+
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println("Welcome to US-Nepal Bank");
+
+		System.out.println("Enter your name: ");
+		String name = input.nextLine();
+
+		System.out.println("Enter your balance: ");
+		int balance = input.nextInt();
+
+		if (balance != 0) {
+			BankAccount obj = new BankAccount(name, balance);
+
+		} else {
+			BankAccount obj1 = new BankAccount(name);
+		}
+
+		System.out.print("Enter:\n1.Withdraw Fund.\n2.Deposit Fund.");
+
+		choice = input.nextInt();
+		switch (choice) {
+
+		case 1:
+		}
+	}
+
+}

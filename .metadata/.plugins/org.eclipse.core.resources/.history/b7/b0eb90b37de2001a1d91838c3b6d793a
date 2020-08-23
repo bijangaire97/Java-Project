@@ -1,0 +1,15 @@
+package com.vastika.uis;
+
+import java.util.Scanner;
+
+import com.vastika.uis.controller.UserController;
+
+public class UserTest {
+
+	public static void main(String[] args) {
+		UserController controller = new UserController();
+		Scanner input = new Scanner(System.in);
+		controller.saveUserInfo(input);
+		
+	}
+}

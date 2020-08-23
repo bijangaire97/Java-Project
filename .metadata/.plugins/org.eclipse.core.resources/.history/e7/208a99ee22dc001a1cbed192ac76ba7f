@@ -1,0 +1,37 @@
+package day29.FileHandling;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class FileDemo4 {
+
+	public static void main(String[] args) {
+		String filePath = "C:\\Users\\Bijan Gaire\\Desktop\\apple.txt";
+
+		FileInputStream fis = null;
+		FileOutputStream fos = null;
+
+		try {
+			fis = new FileInputStream(filePath);
+			fos = new FileOutputStream("C:\\Users\\Bijan Gaire\\Desktop\\firfil\\bijan.txt");
+
+			int len;
+			while ((len = fis.read()) != -1) {
+				
+				fos.write(len);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				fis.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

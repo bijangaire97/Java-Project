@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day17.InheritanceSuperClassDemo&apos; to &apos;Super&apos;&#x0D;&#x0A;- Original project: &apos;classwork&apos;&#x0D;&#x0A;- Original element: &apos;day17.InheritanceSuperClassDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;day17.Super&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InheritanceSuperClassDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day17{InheritanceSuperClassDemo.java[InheritanceSuperClassDemo" matchStrategy="1" name="Super" qualified="false" references="true" similarDeclarations="false" stamp="1595265740869" textual="false" version="1.0"/>
+</session>

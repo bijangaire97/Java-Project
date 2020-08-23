@@ -1,0 +1,10 @@
+package com.vastika.jdbc_demo.util;
+
+public class DBUtililities {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

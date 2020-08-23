@@ -1,0 +1,25 @@
+package FileHandingPractice;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class File1 {
+
+	public static void main(String[] args) {
+		File s
+		
+		try {
+			FileInputStream fis = new FileInputStream("C:\\Users\\Bijan Gaire\\Desktop\\apple.txt");
+			FileOutputStream fos = new FileOutputStream("C:\\Users\\Bijan Gaire\\Desktop\\demo11.txt");
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} finally {
+			fis.close();
+
+		}
+
+	}
+
+}

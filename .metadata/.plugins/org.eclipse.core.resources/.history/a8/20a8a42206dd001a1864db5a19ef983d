@@ -1,0 +1,11 @@
+package day31.mutlthreading;
+
+public class FacebookLike {
+
+	private int likes;
+
+	public static void main(String[] args) {
+
+	}
+
+}

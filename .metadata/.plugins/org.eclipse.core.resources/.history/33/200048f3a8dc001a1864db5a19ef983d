@@ -1,0 +1,15 @@
+package day30.multithreading;
+
+
+
+public class ThreadDemo2 {
+	public class ThreadDemo2 implements Runnable {
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

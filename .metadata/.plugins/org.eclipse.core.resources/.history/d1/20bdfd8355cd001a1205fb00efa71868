@@ -1,0 +1,61 @@
+package Lab1;
+
+import java.util.Scanner;
+
+public class BankAccount {
+
+	static Scanner input = new Scanner(System.in);
+
+	int accountNumber = 1000;
+
+	public bankaccount() {
+	
+	}
+
+	public bankaccount() {
+		
+	}switch(choice)
+
+	{
+
+case 1:
+
+	public static void withdrawFunds() {
+
+	}
+
+	public static void withdrawFunds() {
+
+	}break;
+
+	case 2:
+
+	public static void depositFunds() {
+
+	}
+
+	public static void depositFunds() {
+
+	}break;
+
+	default:System.out.println("Invalid selection!!!")break;
+
+}
+
+	public static void displayAccountInfo() {
+
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println("Welcome to US-Nepal Bank");
+
+		System.out.println("Enter your name: ");
+		String name = input.nextLine();
+
+		System.out.println("Enter your balance: ");
+		String = input.nextLine();
+
+	}
+
+}

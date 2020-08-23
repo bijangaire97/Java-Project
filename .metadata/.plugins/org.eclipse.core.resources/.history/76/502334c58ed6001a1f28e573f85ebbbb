@@ -1,0 +1,11 @@
+package day27.collection;
+
+public class SetDemo1 {
+
+	public static void main(String[] args) {
+	Set<Integer> set = new HashSet<>();
+	
+
+	}
+
+}

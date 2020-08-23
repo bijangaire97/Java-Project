@@ -1,0 +1,18 @@
+package FileHandingPractice;
+
+import java.io.File;
+
+public class ListFiles {
+
+	public static void main(String[] args) {
+		File f = new File("C:\\Users\\Bijan Gaire\\Desktop\\Data Science ");
+		String[] a = f.list();
+
+		int count = 0;
+		for (String s : a) {
+			System.out.println(s);
+
+		}
+	}
+
+}

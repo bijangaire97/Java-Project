@@ -1,0 +1,7 @@
+package com.Team1.BankAccount.model;
+
+public class User {
+	private int id;
+	
+
+}

@@ -1,0 +1,6 @@
+package com.Team1.BankAccount.util;
+
+public class CreateDatabase {
+public static final String SQL = "";
+
+}

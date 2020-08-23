@@ -1,0 +1,15 @@
+package day31.mutlthreading;
+
+public class Task implements Runnable {
+
+	public void run() {
+	for (int i =1; i<=5; i++) {
+		so
+	}
+}
+
+	public static void main(String[] args) {
+
+	}
+
+}

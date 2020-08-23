@@ -1,0 +1,11 @@
+package com.Team1.BankAccount.model;
+
+public class User {
+	private int id;
+	private String user_name;
+	private String address;
+	private long mobileNo;
+	private long unique_idtype;
+	private double deposit_amount;
+private 
+}

@@ -1,0 +1,8 @@
+package com.Team1.BankAccount.util;
+
+public class DBUtil {
+	public static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
+	public static final String URl = "jdbc:mysql://localhost:3306/user_db";
+	public static final String USER_NAME = "root";
+	public static final String PASSWORD = "root";
+}

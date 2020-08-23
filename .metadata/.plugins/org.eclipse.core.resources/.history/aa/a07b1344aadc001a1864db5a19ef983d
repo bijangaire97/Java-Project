@@ -1,0 +1,20 @@
+package day30.multithreading;
+
+public class ThreadDemo2 implements Runnable {
+
+	public static void main(String[] args) {
+
+		ThreadDemo2 th1 = new ThreadDemo2();
+		Thread t1 = new Thread(th1);
+		ThreadDemo2 th2 = new ThreadDemo2();
+		Thread t2 = new Thread(th2);
+		ThreadDemo2 th3 = new ThreadDemo2();
+		Thread t3 = new Thread(th3);
+
+	}
+
+	public void run() {
+		s
+	}
+
+}

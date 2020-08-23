@@ -1,0 +1,13 @@
+package FileHandingPractice;
+
+import java.io.FileWriter;
+
+public class FileWriter1 {
+
+	public static void main(String[] args) {
+FileWriter fw = new FileWriter("C:\\Users\\Bijan Gaire\\Desktop\\abc.docx");
+
+	
+	}
+
+}
